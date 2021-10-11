@@ -1,3 +1,4 @@
+"use strict";
 // explicit types
 var characterName;
 var age;
@@ -20,6 +21,6 @@ uid = 123;
 var castOne;
 castOne = {
     name: 'Mikkel',
-    age: 12
+    age: 12,
 };
 var castTwo;

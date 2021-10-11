@@ -1,3 +1,4 @@
+"use strict";
 // declare an array
 var characters = ['Jonas', 'Martha', 'Mikkel'];
 // push an element to array
@@ -20,7 +21,7 @@ var mainCharacter = {
     name: 'Jonas',
     role: 'Protagonist',
     isPro: true,
-    age: 24
+    age: 24,
 };
 mainCharacter.role = 'Antagonist';
 // mainCharacter.age = "24" // can not change type of an element

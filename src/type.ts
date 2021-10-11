@@ -13,7 +13,7 @@ secondCharacterRole = "Tertiary"
 
 console.log(secondCharacter, secondCharacterRole)
 
-let age = 24
+let cAge = 24
 let gpa = 4.5
 let isBlack = false
 
