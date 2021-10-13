@@ -1,4 +1,4 @@
-class Invoice {
+export class Invoice {
     private client: string
     public details: string
     amount: number

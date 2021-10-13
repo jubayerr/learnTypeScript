@@ -1,20 +1,19 @@
 "use strict";
 // Function
-var greet;
-greet = function () {
+let greet;
+greet = () => {
     console.log('Congratulation');
 };
-var sayHello = function () {
+let sayHello = () => {
     console.log('Hello, world');
 };
-var add = function (a, b, c, d) {
-    if (d === void 0) { d = 10; }
-    var res = a + b + c + d;
+const add = (a, b, c, d = 10) => {
+    let res = a + b + c + d;
     console.log(d);
     console.log(res);
 };
-var minus = function (a, b) {
+const minus = (a, b) => {
     return a - b;
 };
 add(4, 5, 6, 20);
-var result = minus(10, 5);
+let result = minus(10, 5);

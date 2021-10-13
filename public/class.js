@@ -1,20 +1,19 @@
 "use strict";
-var Invoice = /** @class */ (function () {
-    function Invoice(c, d, a) {
+class Invoice {
+    constructor(c, d, a) {
         this.client = c;
         this.details = d;
         this.amount = a;
     }
-    Invoice.prototype.format = function () {
-        return this.client + " owes $" + this.amount + " for " + this.details;
-    };
-    return Invoice;
-}());
-var invOne = new Invoice('Jonas', 'One plus bullet', 16);
-var invTwo = new Invoice('Martha', 'Logitech mouse', 25);
+    format() {
+        return `${this.client} owes $${this.amount} for ${this.details}`;
+    }
+}
+const invOne = new Invoice('Jonas', 'One plus bullet', 16);
+const invTwo = new Invoice('Martha', 'Logitech mouse', 25);
 console.log(invOne.format());
 console.log(invTwo.format());
-var invoices = [];
+let invoices = [];
 invoices.push(invOne);
 invoices.push(invTwo);
 console.log(invoices);

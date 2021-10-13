@@ -1,26 +1,26 @@
 "use strict";
 // explicit types
-var characterName;
-var age;
-var isHaveRole;
+let characterName;
+let age;
+let isHaveRole;
 // age = '45' // can not do that
 age = 24; // that absolutely fine
 // isHaveRole = 24 // can not do that 
 isHaveRole = true; // that absolutely fine
 // arrays
-var groups;
+let groups;
 // groups = [2, 3, 4, 5] // not valid 
 groups = ['science', 'commerce', 'arts']; // thats alright
 // union types
-var mixed = [];
+let mixed = [];
 mixed = ['cat', 4, 'dog', 5];
-var uid;
+let uid;
 uid = '123';
 uid = 123;
 // objects
-var castOne;
+let castOne;
 castOne = {
     name: 'Mikkel',
     age: 12,
 };
-var castTwo;
+let castTwo;

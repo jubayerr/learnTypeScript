@@ -1,6 +1,6 @@
 "use strict";
 // dynamic (any) types
-var random = 25;
+let random = 25;
 random = true;
 random = "Hello";
 random = {
@@ -8,7 +8,7 @@ random = {
 };
 random = [2, 5, 8];
 console.log(random);
-var mixed = [];
+let mixed = [];
 mixed.push(25);
 mixed.push('Jonas');
 mixed.push(false);

@@ -1,23 +1,23 @@
 "use strict";
 // declare an array
-var characters = ['Jonas', 'Martha', 'Mikkel'];
+let characters = ['Jonas', 'Martha', 'Mikkel'];
 // push an element to array
 characters.push('Bartosz');
 // characters.push(10) // can not push a number to string array
 console.log(characters);
 // arrays of numbers
-var numbers = [10, 20, 30, 40];
+let numbers = [10, 20, 30, 40];
 // push an element to array
 numbers.push(50);
 // numbers.push('Magnus') // can not push an string to numbers array
 console.log(numbers);
-var mixed = ['Apple', 5, 'Banana', 20, 'WaterMelon'];
+let mixed = ['Apple', 5, 'Banana', 20, 'WaterMelon'];
 // they can be push in a mixed array
 mixed.push('Mango');
 mixed.push(25);
 mixed[0] = 10;
 // declare an object
-var mainCharacter = {
+let mainCharacter = {
     name: 'Jonas',
     role: 'Protagonist',
     isPro: true,
